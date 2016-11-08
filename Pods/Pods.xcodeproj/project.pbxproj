@@ -7,82 +7,182 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03437C2E4A325849B584C770585125C9 /* RSCode39Mod43Generator.h in Headers */ = {isa = PBXBuildFile; fileRef = 10B2F772375489B3C766B02C3A428D02 /* RSCode39Mod43Generator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		034509FB38AA5548A862B666D4125B83 /* RSUPCEGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EDD8F2B3EEC9DE0A5A46C62C6AC1498 /* RSUPCEGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07818F2E24CDFAB9ED9A703B291D7F88 /* RSCornersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 117692DA78FBADB4F73143D01B588E9D /* RSCornersView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		11E8195AED9DCE0C070E90B5EF2B6E1F /* RSEAN8Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8B5D4019603DD7E90E930C8EFEF016 /* RSEAN8Generator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		17A5E8BD2353BF0FC9478E4D1EAA5D13 /* RSITFGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = C1592BA30E59B6A9C98513E60B283DF7 /* RSITFGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CBFD04DF4FCF8E33FFD362334C22B99 /* RSCodeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = C2BAAF5047D0E93EB1E5815780D20E02 /* RSCodeGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20EA68E77DB75FD79FF3A4072901F5FC /* RSCode93Generator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F5F4E4A3D6A223EE7D4BAE0A55C59EF /* RSCode93Generator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21A4B4EB6B68E82CD4293EBE97D21AB1 /* Pods-FoundItUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AECEA2389803E4A74B63D1B47F0F1A62 /* Pods-FoundItUITests-dummy.m */; };
-		4175ED563CECEAAA87D9A3412962BB42 /* Pods-FoundIt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D907CB7C353779E45E2CA8D218A5DB /* Pods-FoundIt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		548C40559D67F1624FD4CB8B04CF6B19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		C0F799A64D309030F7E25F7BD9CE38B9 /* Pods-FoundIt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4137EB07B0643381E08B46DD4E05265 /* Pods-FoundIt-dummy.m */; };
-		D072A0CAACB7B2D6430F5E5BF61CA193 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		2499E0E435509369D3331DF8FCE0690E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795C2FA91D69AF87E910B75563F6BA4A /* AVFoundation.framework */; };
+		275079473045269C3346590DCC1C025F /* RSCodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D1FB2E76D703AE56F9208DF2720A7A7 /* RSCodeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		296C243DD9CFB7E8B59AA4D7099DA2A4 /* Pods-FoundIt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D907CB7C353779E45E2CA8D218A5DB /* Pods-FoundIt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B240CA9C42895D431446BD7E1CAA045 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C1789B3E8CCBAE097468A4C62506B2 /* Foundation.framework */; };
+		2D553B044A19728163E7523F29B06F36 /* RSScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59902D89AABE201B5A673134685B8B6 /* RSScannerViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		38E4733B89628D1712DA5D47C58A7622 /* RSCode93Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F997A52BC849D685BCB62D1BEE47806 /* RSCode93Generator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		45D99857AD5DE748A009BD75647C3ED0 /* RSISBN13Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = A08A90405745AD43EE0491CF80427F45 /* RSISBN13Generator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		47183BAC6E0EA21E6FABB967E8B8F507 /* RSCornersView.h in Headers */ = {isa = PBXBuildFile; fileRef = 051327B4FB57EC43053B05F3E9148206 /* RSCornersView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4ACEC36E79278E7288452950DDF1BA9E /* RSCode128Generator.h in Headers */ = {isa = PBXBuildFile; fileRef = D625EA0F7BB1F98A762F8BA0F89D6CEC /* RSCode128Generator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		546BBE3C66B8A97084F8B0DA634D65DE /* RSEAN13Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E30EC9F17682DA51B4A3D31A2EE5DF /* RSEAN13Generator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		548C40559D67F1624FD4CB8B04CF6B19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C1789B3E8CCBAE097468A4C62506B2 /* Foundation.framework */; };
+		5BDE7F4D005B9D1D5DA49B35B26F9FA6 /* RSEAN8Generator.h in Headers */ = {isa = PBXBuildFile; fileRef = BE9ECFADA8113F035806B03A1A994D0A /* RSEAN8Generator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64EDD509AB3F0E50641FC33158BF10DD /* Pods-FoundIt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4137EB07B0643381E08B46DD4E05265 /* Pods-FoundIt-dummy.m */; };
+		6695DC54A1DF7FD856F5890BA9BE9544 /* RSScannerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CF95E3777CA7CB4A2D2B7F9666713557 /* RSScannerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EC92A79914146856BD0F96C62C16AE2 /* RSEANGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 584E7490D76EA339B30146878ED7B8F0 /* RSEANGenerator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		80AC2278D7119330C5F9C6B053C825B5 /* RSCode39Generator.h in Headers */ = {isa = PBXBuildFile; fileRef = BE477CD1B1BDE1D099C2975D71646E68 /* RSCode39Generator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82042F75DD36AF5C6D7FF96CC379FDF4 /* RSITF14Generator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2966933676BB1FE10EBB2190F200DB3E /* RSITF14Generator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		861E09BF5C8B540A19B0D6A9B40A7161 /* RSExtendedCode39Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 854F34ABE042D7C4B5D63672878D5BFD /* RSExtendedCode39Generator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8D960D1DCA6E7A48543101BAB60A59DB /* RSISSN13Generator.h in Headers */ = {isa = PBXBuildFile; fileRef = 35AE339F17BD20A968B8F656E46E85E6 /* RSISSN13Generator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9102C102B7E422F4E6D9FD279FCC98D7 /* RSExtendedCode39Generator.h in Headers */ = {isa = PBXBuildFile; fileRef = B13667278981BC5E4DE779F5E5781EA5 /* RSExtendedCode39Generator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91A9FB794229EB872C7F129B4CBB9EB3 /* RSEANGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 91CA43CB8BE74DA45ED0E7DFFA267F84 /* RSEANGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93F15600840AEC92B0816377D3721B7B /* RSCodeGen.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A980B64A4CA222C5B24CEE9B3DB45B /* RSCodeGen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94078C7F5D4D02625F1506ED01E658A2 /* RSBarcodes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31C45B25BC8D4EACF5F806329EE7D8A7 /* RSBarcodes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99D4E96C703CDFEFC0721889C03A32B9 /* RSBarcodes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A42C3CC8EE8567B43E1EFEC3F9A12 /* RSBarcodes-dummy.m */; };
+		9CD339227C9AE1F64E2986C020207424 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C1789B3E8CCBAE097468A4C62506B2 /* Foundation.framework */; };
+		ADA463B48BBFEB6D48087FCF4D4B1041 /* RSCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C96867FAB54CAC6D88380EB217BBD3 /* RSCodeGenerator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BBFE96FD154885DEC3BD0663EEB352DD /* RSITF14Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0107B4C0FBE4497979E9DB3590768921 /* RSITF14Generator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C43BEDC69FDBE8A63B887E0D66FDE447 /* RSCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC768A158716DF62F81122CC8B4F2A2 /* RSCodeView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C7CF3060E55410BFD7F1EF906B200783 /* RSCode39Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D48E78E5DEC9F7F2EBE22265D33A502 /* RSCode39Generator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CE8F4AC18F254A1A40117881EE769166 /* RSITFGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8780635D1DCEDBB36116D2448AA28AB5 /* RSITFGenerator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CF711C9BA829692B4EE06E6045555C16 /* RSBarcodes.h in Headers */ = {isa = PBXBuildFile; fileRef = B9761573F275D1A6D2D4B1A326EC8E47 /* RSBarcodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D231709FF7CBEC2DDFA823401B849D34 /* RSUPCEGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F91593F1D04F3E321F0C1D1E0669B28 /* RSUPCEGenerator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		D277BDACF896183569D692BD54A82E07 /* Pods-FoundItTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE73A5EAE64E2D6A51F15585E014BFCB /* Pods-FoundItTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3CF4E704C965AB1E8861E2DFA2D7A4A /* Pods-FoundItTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1A15BA7A9C92BC3E13A776AC6F9A72 /* Pods-FoundItTests-dummy.m */; };
+		D5A525E8EFD1E56BD072DA31AF29D2C0 /* RSUnifiedCodeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 39CDB6C4E8AFDA5C9427C38F32EF731A /* RSUnifiedCodeGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D60E5468B1A59341593C88E8F621FFB5 /* Pods-FoundItUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F9AD4E54573C1C7BA83C1E1085DA1AE /* Pods-FoundItUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5DC0B7002C148F9E25D416258CB0482 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		E0A01BA5AF5536758AEFB9EFFC511974 /* RSUnifiedCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2816E581E1E77019EC4CBFD05AD06495 /* RSUnifiedCodeGenerator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E4ABB7F3FC1FEE331E7A41C565390A7C /* RSCode128Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5BD04F4BDBBC6C2449F7C88E509CC9 /* RSCode128Generator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E6155D4BDB501BF11D6D0D06BA05E979 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB27C2D87DB11EB74899AFF0181127C /* CoreImage.framework */; };
+		E6FF6639883D22CF8BFEEA13F2FD294E /* RSCode39Mod43Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 369393D2FAB716B413549AC7CF43A090 /* RSCode39Mod43Generator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F0644D598384E5873D0EF09FCEFB0053 /* RSEAN13Generator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC17411FE465CF83CBE1FE41B098520 /* RSEAN13Generator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F44DC656BDD453486DA33E0912A0313B /* RSISSN13Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 870B70E2FDAF384689AAAC7258DB3BC2 /* RSISSN13Generator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F4FE2431B378D7EE9B6FBB4498468722 /* RSISBN13Generator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5592C7D96E911D325AFE2F2B8092ECC6 /* RSISBN13Generator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5DC0B7002C148F9E25D416258CB0482 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C1789B3E8CCBAE097468A4C62506B2 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C3A24D9426D6A5A1E8BA0968A54BD2BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E77A28A7F7328EEBA914BF4A4F32AB5E;
+			remoteInfo = RSBarcodes;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		01B41B47DBC4B4F70121EE5CA8F73776 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		0107B4C0FBE4497979E9DB3590768921 /* RSITF14Generator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSITF14Generator.m; path = RSBarcodes/RSITF14Generator.m; sourceTree = "<group>"; };
+		0502FE2C2CC241BE5E973B2C76C431FB /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		051327B4FB57EC43053B05F3E9148206 /* RSCornersView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSCornersView.h; path = RSBarcodes/RSCornersView.h; sourceTree = "<group>"; };
 		0CBC3371480EF2C5E291E135522695FD /* Pods-FoundIt-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoundIt-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0CDEC39B8A166CC8CA403FA64AB8ECA3 /* Pods-FoundItTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoundItTests.debug.xcconfig"; sourceTree = "<group>"; };
-		1338C7D3ABFDF7E34E34565230894B01 /* Pods_FoundItTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoundItTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB27C2D87DB11EB74899AFF0181127C /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		10B2F772375489B3C766B02C3A428D02 /* RSCode39Mod43Generator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSCode39Mod43Generator.h; path = RSBarcodes/RSCode39Mod43Generator.h; sourceTree = "<group>"; };
+		117692DA78FBADB4F73143D01B588E9D /* RSCornersView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSCornersView.m; path = RSBarcodes/RSCornersView.m; sourceTree = "<group>"; };
 		15D9DA52E3B4C0F886349F2D2C994996 /* Pods-FoundItUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FoundItUITests.modulemap"; sourceTree = "<group>"; };
+		17E91FEA0EC7D1D42ACACA3CDBC80E8E /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		198A72D4BE5087C889059846BCCA1107 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
 		1BCB531551ABB66E7D87AE6512B12BC7 /* Pods-FoundItTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoundItTests.release.xcconfig"; sourceTree = "<group>"; };
-		251D3F1962DBD5388BA52612B72DD579 /* Pods_FoundIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoundIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D1FB2E76D703AE56F9208DF2720A7A7 /* RSCodeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSCodeView.h; path = RSBarcodes/RSCodeView.h; sourceTree = "<group>"; };
+		1EDD8F2B3EEC9DE0A5A46C62C6AC1498 /* RSUPCEGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSUPCEGenerator.h; path = RSBarcodes/RSUPCEGenerator.h; sourceTree = "<group>"; };
+		1F997A52BC849D685BCB62D1BEE47806 /* RSCode93Generator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSCode93Generator.m; path = RSBarcodes/RSCode93Generator.m; sourceTree = "<group>"; };
+		2816E581E1E77019EC4CBFD05AD06495 /* RSUnifiedCodeGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSUnifiedCodeGenerator.m; path = RSBarcodes/RSUnifiedCodeGenerator.m; sourceTree = "<group>"; };
 		28BA7F6C7D5C66F2D845CE6C844F7B21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2966933676BB1FE10EBB2190F200DB3E /* RSITF14Generator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSITF14Generator.h; path = RSBarcodes/RSITF14Generator.h; sourceTree = "<group>"; };
+		2E900AAF11155863CBD213111834E8A3 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
 		2F1A15BA7A9C92BC3E13A776AC6F9A72 /* Pods-FoundItTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoundItTests-dummy.m"; sourceTree = "<group>"; };
+		2F5F4E4A3D6A223EE7D4BAE0A55C59EF /* RSCode93Generator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSCode93Generator.h; path = RSBarcodes/RSCode93Generator.h; sourceTree = "<group>"; };
 		2F9AD4E54573C1C7BA83C1E1085DA1AE /* Pods-FoundItUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoundItUITests-umbrella.h"; sourceTree = "<group>"; };
 		310DE6DE6366BDEF1252223B763D2BDA /* Pods-FoundItUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoundItUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		31C45B25BC8D4EACF5F806329EE7D8A7 /* RSBarcodes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSBarcodes-umbrella.h"; sourceTree = "<group>"; };
+		35AE339F17BD20A968B8F656E46E85E6 /* RSISSN13Generator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSISSN13Generator.h; path = RSBarcodes/RSISSN13Generator.h; sourceTree = "<group>"; };
+		369393D2FAB716B413549AC7CF43A090 /* RSCode39Mod43Generator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSCode39Mod43Generator.m; path = RSBarcodes/RSCode39Mod43Generator.m; sourceTree = "<group>"; };
 		39707E6B78F52C002573AB2192FC6E54 /* Pods-FoundItUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoundItUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39CDB6C4E8AFDA5C9427C38F32EF731A /* RSUnifiedCodeGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSUnifiedCodeGenerator.h; path = RSBarcodes/RSUnifiedCodeGenerator.h; sourceTree = "<group>"; };
 		3C79CE65CF06C652A352BE4E1156843C /* Pods-FoundIt-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoundIt-acknowledgements.plist"; sourceTree = "<group>"; };
+		3CC17411FE465CF83CBE1FE41B098520 /* RSEAN13Generator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSEAN13Generator.h; path = RSBarcodes/RSEAN13Generator.h; sourceTree = "<group>"; };
+		3E8B5D4019603DD7E90E930C8EFEF016 /* RSEAN8Generator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSEAN8Generator.m; path = RSBarcodes/RSEAN8Generator.m; sourceTree = "<group>"; };
+		41C1789B3E8CCBAE097468A4C62506B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		41E7A0ACE3628F34AD23E11D710FCE40 /* Pods-FoundItUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoundItUITests-resources.sh"; sourceTree = "<group>"; };
 		442EA5DDECE7EF23B8D27C5AEF3DD193 /* Pods-FoundItUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoundItUITests.release.xcconfig"; sourceTree = "<group>"; };
-		48BE377AD0FDE40AAB130E35918796AB /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
-		4976FF8C46BEBC0B7FE12A1C5BED896A /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Headers/Firebase.h; sourceTree = "<group>"; };
-		539AF5BAC7EB541D00756F5A0F1210C0 /* Pods_FoundItUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoundItUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		59D1AC52105B06F3C2A719B74FC1FF73 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
-		5C6E7E0870053E9D11B4DBDE63D04BC2 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		44A600153A9EF77E95CEA1E754400A46 /* Pods_FoundItTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoundItTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4583F5CE5B3401B0FAFDE91847EE94C0 /* RSBarcodes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RSBarcodes.modulemap; sourceTree = "<group>"; };
+		4B533DEA63DE71EAF07EF195FCDE5524 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		5592C7D96E911D325AFE2F2B8092ECC6 /* RSISBN13Generator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSISBN13Generator.h; path = RSBarcodes/RSISBN13Generator.h; sourceTree = "<group>"; };
+		574A15A6256B1AA138771A35BF1CF1E2 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
+		584E7490D76EA339B30146878ED7B8F0 /* RSEANGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSEANGenerator.m; path = RSBarcodes/RSEANGenerator.m; sourceTree = "<group>"; };
+		58D3DD65F7024FC99C78F42073ADFBB6 /* RSBarcodes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSBarcodes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6305D04F885BC0B9ABCCEC0940CFCDC1 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 		63D907CB7C353779E45E2CA8D218A5DB /* Pods-FoundIt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoundIt-umbrella.h"; sourceTree = "<group>"; };
 		6B223B0C7719AEF169ECD6E0CB38B633 /* Pods-FoundItTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FoundItTests.modulemap"; sourceTree = "<group>"; };
+		6C5BD04F4BDBBC6C2449F7C88E509CC9 /* RSCode128Generator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSCode128Generator.m; path = RSBarcodes/RSCode128Generator.m; sourceTree = "<group>"; };
 		6D6CF316DA1B660D605C1218E8A603B9 /* Pods-FoundItTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoundItTests-resources.sh"; sourceTree = "<group>"; };
 		6FB15009604F6AF780D9D711F42D9593 /* Pods-FoundItTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoundItTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		79070F0608C593E4DDB708CD14C6C2FC /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
-		7A0274C48DD93FEBA9765463DB21EFD5 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		795C2FA91D69AF87E910B75563F6BA4A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		7CED2516FC6C75B238B41B4BFD02D480 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Headers/Public/FIRInstanceID.h; sourceTree = "<group>"; };
+		840A42C3CC8EE8567B43E1EFEC3F9A12 /* RSBarcodes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSBarcodes-dummy.m"; sourceTree = "<group>"; };
+		854F34ABE042D7C4B5D63672878D5BFD /* RSExtendedCode39Generator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSExtendedCode39Generator.m; path = RSBarcodes/RSExtendedCode39Generator.m; sourceTree = "<group>"; };
+		870B70E2FDAF384689AAAC7258DB3BC2 /* RSISSN13Generator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSISSN13Generator.m; path = RSBarcodes/RSISSN13Generator.m; sourceTree = "<group>"; };
+		8780635D1DCEDBB36116D2448AA28AB5 /* RSITFGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSITFGenerator.m; path = RSBarcodes/RSITFGenerator.m; sourceTree = "<group>"; };
+		8D48E78E5DEC9F7F2EBE22265D33A502 /* RSCode39Generator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSCode39Generator.m; path = RSBarcodes/RSCode39Generator.m; sourceTree = "<group>"; };
+		8DF29E6098FCA812CEEFA258C453E5D9 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Headers/Firebase.h; sourceTree = "<group>"; };
+		91CA43CB8BE74DA45ED0E7DFFA267F84 /* RSEANGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSEANGenerator.h; path = RSBarcodes/RSEANGenerator.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		958E16ECF022847CDD4381DE0100ED2D /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		9A3A2A37F6370D7D6A9F5AFE23878BDC /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		9F91593F1D04F3E321F0C1D1E0669B28 /* RSUPCEGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSUPCEGenerator.m; path = RSBarcodes/RSUPCEGenerator.m; sourceTree = "<group>"; };
 		9F9CA4B18EB2AF2183E39C45066D8BF6 /* Pods-FoundItUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoundItUITests-frameworks.sh"; sourceTree = "<group>"; };
+		A08A90405745AD43EE0491CF80427F45 /* RSISBN13Generator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSISBN13Generator.m; path = RSBarcodes/RSISBN13Generator.m; sourceTree = "<group>"; };
+		A4A980B64A4CA222C5B24CEE9B3DB45B /* RSCodeGen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSCodeGen.h; path = RSBarcodes/RSCodeGen.h; sourceTree = "<group>"; };
 		A5CD760AEA09907D50548C2F3CD7B0D5 /* Pods-FoundItTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoundItTests-frameworks.sh"; sourceTree = "<group>"; };
-		A7BC83F56F9F54864A8ED9BAD4B8A9D0 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		A8E30EC9F17682DA51B4A3D31A2EE5DF /* RSEAN13Generator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSEAN13Generator.m; path = RSBarcodes/RSEAN13Generator.m; sourceTree = "<group>"; };
+		A96750E014CB72E9660E3E2113B3FAB6 /* Pods_FoundIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoundIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA795B207034E7C22BCF0A3D9B17B17F /* Pods-FoundItTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoundItTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AB1584CF33D5E7AE5874C614F8CDFAA7 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Headers/Public/FIRInstanceID.h; sourceTree = "<group>"; };
 		AECEA2389803E4A74B63D1B47F0F1A62 /* Pods-FoundItUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoundItUITests-dummy.m"; sourceTree = "<group>"; };
+		B13667278981BC5E4DE779F5E5781EA5 /* RSExtendedCode39Generator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSExtendedCode39Generator.h; path = RSBarcodes/RSExtendedCode39Generator.h; sourceTree = "<group>"; };
 		B4C18CDE861EF825035283C17B66B177 /* Pods-FoundIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoundIt.debug.xcconfig"; sourceTree = "<group>"; };
 		B71184A5846049012A79374F43B05A6C /* Pods-FoundIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoundIt.release.xcconfig"; sourceTree = "<group>"; };
 		B8AA85A66FBFDE94DB809D27E69E1804 /* Pods-FoundItUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoundItUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B9761573F275D1A6D2D4B1A326EC8E47 /* RSBarcodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSBarcodes.h; path = RSBarcodes/RSBarcodes.h; sourceTree = "<group>"; };
 		B9FE148677B763C641BAF0BCFEDFDFE0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB18D32868A5B50C63012077B6D1EE04 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE477CD1B1BDE1D099C2975D71646E68 /* RSCode39Generator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSCode39Generator.h; path = RSBarcodes/RSCode39Generator.h; sourceTree = "<group>"; };
+		BE9ECFADA8113F035806B03A1A994D0A /* RSEAN8Generator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSEAN8Generator.h; path = RSBarcodes/RSEAN8Generator.h; sourceTree = "<group>"; };
+		C1592BA30E59B6A9C98513E60B283DF7 /* RSITFGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSITFGenerator.h; path = RSBarcodes/RSITFGenerator.h; sourceTree = "<group>"; };
+		C226CD5654A0F12BFA1D7B3AC6200832 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2BAAF5047D0E93EB1E5815780D20E02 /* RSCodeGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSCodeGenerator.h; path = RSBarcodes/RSCodeGenerator.h; sourceTree = "<group>"; };
+		C7E60E554EC6CE79DC8DF3EB10901B8D /* RSBarcodes-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSBarcodes-prefix.pch"; sourceTree = "<group>"; };
 		CCE15CC85F09E89F6EADCB9DD90F1521 /* Pods-FoundIt-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoundIt-resources.sh"; sourceTree = "<group>"; };
+		CD7433CDAE75FBAFCCA2AE1CAD26C425 /* RSBarcodes.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSBarcodes.xcconfig; sourceTree = "<group>"; };
+		CDC768A158716DF62F81122CC8B4F2A2 /* RSCodeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSCodeView.m; path = RSBarcodes/RSCodeView.m; sourceTree = "<group>"; };
 		CE73A5EAE64E2D6A51F15585E014BFCB /* Pods-FoundItTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoundItTests-umbrella.h"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF95E3777CA7CB4A2D2B7F9666713557 /* RSScannerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSScannerViewController.h; path = RSBarcodes/RSScannerViewController.h; sourceTree = "<group>"; };
+		D03A730563321C7DB64BDB01EACE047F /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
 		D4137EB07B0643381E08B46DD4E05265 /* Pods-FoundIt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoundIt-dummy.m"; sourceTree = "<group>"; };
-		E82D820B210D5CAAC62414CC7183544B /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		E8D67E15C1148FC946FF9C0BB7233F06 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		D625EA0F7BB1F98A762F8BA0F89D6CEC /* RSCode128Generator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSCode128Generator.h; path = RSBarcodes/RSCode128Generator.h; sourceTree = "<group>"; };
+		E6C96867FAB54CAC6D88380EB217BBD3 /* RSCodeGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSCodeGenerator.m; path = RSBarcodes/RSCodeGenerator.m; sourceTree = "<group>"; };
+		EB6CDC077F9A7ABCF732118882890885 /* Pods_FoundItUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoundItUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB784D34BE076A212D466933717CBFAA /* Pods-FoundIt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FoundIt.modulemap"; sourceTree = "<group>"; };
-		FCA66AF3D4983F8B910334B89985FFA7 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		EE8D4D15DD21661AF5921C04116AFA8C /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		F59902D89AABE201B5A673134685B8B6 /* RSScannerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSScannerViewController.m; path = RSBarcodes/RSScannerViewController.m; sourceTree = "<group>"; };
+		FA47187DBA96F21259D30CCE83F9A96C /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
 		FE00E14C0C988A1ACC19FA5B6B4A7946 /* Pods-FoundIt-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoundIt-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1BC04C89B56FA0F30C01E20097DF1A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B240CA9C42895D431446BD7E1CAA045 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C3FA736041B4F8D6BF509CFEF69FE4EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				548C40559D67F1624FD4CB8B04CF6B19 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D25D057635BF14312858132E08EF6DED /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D072A0CAACB7B2D6430F5E5BF61CA193 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,79 +194,81 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FBE1086EA823F7FD04CE927597174DFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2499E0E435509369D3331DF8FCE0690E /* AVFoundation.framework in Frameworks */,
+				E6155D4BDB501BF11D6D0D06BA05E979 /* CoreImage.framework in Frameworks */,
+				9CD339227C9AE1F64E2986C020207424 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		19D4F4F0E84A7F7F497BCFC3C8CAFFAD /* Firebase */ = {
+		0CD4F696AA303BF56E7579F84781055A /* GoogleNetworkingUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				310EB198234DA051B99C64BBDCC90E06 /* Analytics */,
+				B75DB5C907D3796B3FD836AA76C6987D /* Frameworks */,
 			);
-			path = Firebase;
+			path = GoogleNetworkingUtilities;
 			sourceTree = "<group>";
 		};
-		1BAE96DC879916F813288097E0F642DE /* GoogleInterchangeUtilities */ = {
+		0E5FE609E367375D1D03D87B9F954D22 /* FirebaseAuth */ = {
 			isa = PBXGroup;
 			children = (
-				8C4C881CD8D5B34D513C286324156E5B /* Frameworks */,
-			);
-			path = GoogleInterchangeUtilities;
-			sourceTree = "<group>";
-		};
-		2B2291CE7D7336F54F640BB40A3ADBB8 /* FirebaseAuth */ = {
-			isa = PBXGroup;
-			children = (
-				E6E59E4C7C02B72590F91C660C0BF57B /* Frameworks */,
+				24034F1827516FA8002EF442F0171D27 /* Frameworks */,
 			);
 			path = FirebaseAuth;
 			sourceTree = "<group>";
 		};
-		310EB198234DA051B99C64BBDCC90E06 /* Analytics */ = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4976FF8C46BEBC0B7FE12A1C5BED896A /* Firebase.h */,
+				B5AC1013FF3C177C79C024B99E0994D9 /* iOS */,
 			);
-			name = Analytics;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		37B7D8BD9E4AC958F3C756A9ACEA3605 /* Resources */ = {
+		24034F1827516FA8002EF442F0171D27 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E8D67E15C1148FC946FF9C0BB7233F06 /* GoogleMaps.bundle */,
+				0502FE2C2CC241BE5E973B2C76C431FB /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		417B7E209CC053FEC9F5243E0354AB41 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9A3A2A37F6370D7D6A9F5AFE23878BDC /* GoogleMaps.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+		41A092A0128D3E9923976FAEEB76B544 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		43C6AC2AA9DFBE57A6E24D8C64444C38 /* FirebaseAnalytics */ = {
-			isa = PBXGroup;
-			children = (
-				C12AE830002309B96E7053410E650BE1 /* Frameworks */,
-			);
-			path = FirebaseAnalytics;
-			sourceTree = "<group>";
-		};
-		45C7057CE53BCBB99852E84301FDCBDD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				958E16ECF022847CDD4381DE0100ED2D /* GoogleUtilities.framework */,
+				6305D04F885BC0B9ABCCEC0940CFCDC1 /* GoogleMaps.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4930F91C7CFDE83167E5F72B53188F4F /* Frameworks */ = {
+		4E9AD04903B51036B71B7A8E37539D34 /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				E82D820B210D5CAAC62414CC7183544B /* FirebaseInstanceID.framework */,
+				5160982A959114EE080CAC9CB4CDE7C1 /* Analytics */,
 			);
-			name = Frameworks;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		5160982A959114EE080CAC9CB4CDE7C1 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				8DF29E6098FCA812CEEFA258C453E5D9 /* Firebase.h */,
+			);
+			name = Analytics;
 			sourceTree = "<group>";
 		};
 		51FC3022822966394E2B726555680457 /* Targets Support Files */ = {
@@ -179,14 +281,52 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		551E57F68CB049C4745B38793B05019D /* Products */ = {
+		5AD8946EB9ACCD9D6F3F2D994063E195 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				251D3F1962DBD5388BA52612B72DD579 /* Pods_FoundIt.framework */,
-				1338C7D3ABFDF7E34E34565230894B01 /* Pods_FoundItTests.framework */,
-				539AF5BAC7EB541D00756F5A0F1210C0 /* Pods_FoundItUITests.framework */,
+				198A72D4BE5087C889059846BCCA1107 /* GoogleInterchangeUtilities.framework */,
 			);
-			name = Products;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64536E0087A8730A3B89BA85BA6E782A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE8D4D15DD21661AF5921C04116AFA8C /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6939C9686E5DF7EB37E62E5C26B3E6E4 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				5AD8946EB9ACCD9D6F3F2D994063E195 /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		6C072B9B8F833297301D7EA5FCF593DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E900AAF11155863CBD213111834E8A3 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DE8BA067B0FF92750DDCF3DC2D449ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B533DEA63DE71EAF07EF195FCDE5524 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		722054286A8CA871300024056849A297 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				574A15A6256B1AA138771A35BF1CF1E2 /* FirebaseStorage.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		748576A369DB0715B83BE89139784953 /* Pods-FoundIt */ = {
@@ -205,6 +345,14 @@
 			);
 			name = "Pods-FoundIt";
 			path = "Target Support Files/Pods-FoundIt";
+			sourceTree = "<group>";
+		};
+		752D3C2AB21B3FB86868A30059A9CD4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D03A730563321C7DB64BDB01EACE047F /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7B53D584A38E064A0C63B70F92642F1D /* Pods-FoundItTests */ = {
@@ -229,159 +377,177 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				D96515D5710DCA90DA135821BBDBC608 /* Pods */,
-				551E57F68CB049C4745B38793B05019D /* Products */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				9F503CAE52D5D20BB183D87452A87BFE /* Pods */,
+				A2BE4D3F6EA49957614B414803D777D7 /* Products */,
 				51FC3022822966394E2B726555680457 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8B993C86E4A92CC734A49BD405E12483 /* GoogleUtilities */ = {
+		7F07AB1D734709D4A32F7A9B7A82905E /* FirebaseStorage */ = {
 			isa = PBXGroup;
 			children = (
-				45C7057CE53BCBB99852E84301FDCBDD /* Frameworks */,
-			);
-			path = GoogleUtilities;
-			sourceTree = "<group>";
-		};
-		8C4C881CD8D5B34D513C286324156E5B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7A0274C48DD93FEBA9765463DB21EFD5 /* GoogleInterchangeUtilities.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		93448CFC8FBAEDF46372F8CF825CFC15 /* GoogleMaps */ = {
-			isa = PBXGroup;
-			children = (
-				B4E1B9A13A7015C73310EB62CB877FDA /* Frameworks */,
-				37B7D8BD9E4AC958F3C756A9ACEA3605 /* Resources */,
-			);
-			path = GoogleMaps;
-			sourceTree = "<group>";
-		};
-		9C08DA72ECC80345CBCB00461295C5DB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				48BE377AD0FDE40AAB130E35918796AB /* FirebaseStorage.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9E24D07EF84C41F6115C4AED73A267B7 /* FirebaseStorage */ = {
-			isa = PBXGroup;
-			children = (
-				9C08DA72ECC80345CBCB00461295C5DB /* Frameworks */,
+				722054286A8CA871300024056849A297 /* Frameworks */,
 			);
 			path = FirebaseStorage;
 			sourceTree = "<group>";
 		};
-		A12CCAD250C594A1ECD0FB2FE10D9299 /* FirebaseDatabase */ = {
+		863B2B45A32F28CA75AF1F69D76B9E26 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CAC1726E4669CD5CA921F0133FD5599C /* Frameworks */,
+				C226CD5654A0F12BFA1D7B3AC6200832 /* Info.plist */,
+				4583F5CE5B3401B0FAFDE91847EE94C0 /* RSBarcodes.modulemap */,
+				CD7433CDAE75FBAFCCA2AE1CAD26C425 /* RSBarcodes.xcconfig */,
+				840A42C3CC8EE8567B43E1EFEC3F9A12 /* RSBarcodes-dummy.m */,
+				C7E60E554EC6CE79DC8DF3EB10901B8D /* RSBarcodes-prefix.pch */,
+				31C45B25BC8D4EACF5F806329EE7D8A7 /* RSBarcodes-umbrella.h */,
 			);
-			path = FirebaseDatabase;
+			name = "Support Files";
+			path = "../Target Support Files/RSBarcodes";
 			sourceTree = "<group>";
 		};
-		B0F004A00B1F078DDEC8EDA143F4515B /* FirebaseInstanceID */ = {
+		969EFE77BAC11546986230B07EEAB669 /* GoogleSymbolUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				AB1584CF33D5E7AE5874C614F8CDFAA7 /* FIRInstanceID.h */,
-				4930F91C7CFDE83167E5F72B53188F4F /* Frameworks */,
-			);
-			path = FirebaseInstanceID;
-			sourceTree = "<group>";
-		};
-		B4E1B9A13A7015C73310EB62CB877FDA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FCA66AF3D4983F8B910334B89985FFA7 /* GoogleMaps.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B76F6FB891F2112129CBC0CACBFC1D59 /* GoogleNetworkingUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				D015CD96CB50A418A37E7209E7AFC4FA /* Frameworks */,
-			);
-			path = GoogleNetworkingUtilities;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C12AE830002309B96E7053410E650BE1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A7BC83F56F9F54864A8ED9BAD4B8A9D0 /* FirebaseAnalytics.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C99E69902EDEE32824693E7D576EBB31 /* GoogleSymbolUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				DD6CFC96D5A119B3EBAF531804DE0D03 /* Frameworks */,
+				752D3C2AB21B3FB86868A30059A9CD4E /* Frameworks */,
 			);
 			path = GoogleSymbolUtilities;
 			sourceTree = "<group>";
 		};
-		CAC1726E4669CD5CA921F0133FD5599C /* Frameworks */ = {
+		96ADB8E696EDE9D27AF6A5AC68ED3FE1 /* FirebaseInstanceID */ = {
 			isa = PBXGroup;
 			children = (
-				59D1AC52105B06F3C2A719B74FC1FF73 /* FirebaseDatabase.framework */,
+				7CED2516FC6C75B238B41B4BFD02D480 /* FIRInstanceID.h */,
+				6C072B9B8F833297301D7EA5FCF593DB /* Frameworks */,
 			);
-			name = Frameworks;
+			path = FirebaseInstanceID;
 			sourceTree = "<group>";
 		};
-		D015CD96CB50A418A37E7209E7AFC4FA /* Frameworks */ = {
+		9F503CAE52D5D20BB183D87452A87BFE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				79070F0608C593E4DDB708CD14C6C2FC /* GoogleNetworkingUtilities.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D96515D5710DCA90DA135821BBDBC608 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				19D4F4F0E84A7F7F497BCFC3C8CAFFAD /* Firebase */,
-				43C6AC2AA9DFBE57A6E24D8C64444C38 /* FirebaseAnalytics */,
-				2B2291CE7D7336F54F640BB40A3ADBB8 /* FirebaseAuth */,
-				A12CCAD250C594A1ECD0FB2FE10D9299 /* FirebaseDatabase */,
-				B0F004A00B1F078DDEC8EDA143F4515B /* FirebaseInstanceID */,
-				9E24D07EF84C41F6115C4AED73A267B7 /* FirebaseStorage */,
-				1BAE96DC879916F813288097E0F642DE /* GoogleInterchangeUtilities */,
-				93448CFC8FBAEDF46372F8CF825CFC15 /* GoogleMaps */,
-				B76F6FB891F2112129CBC0CACBFC1D59 /* GoogleNetworkingUtilities */,
-				C99E69902EDEE32824693E7D576EBB31 /* GoogleSymbolUtilities */,
-				8B993C86E4A92CC734A49BD405E12483 /* GoogleUtilities */,
+				4E9AD04903B51036B71B7A8E37539D34 /* Firebase */,
+				D1D7410A0D11F1D4E64ABF96EAF56A70 /* FirebaseAnalytics */,
+				0E5FE609E367375D1D03D87B9F954D22 /* FirebaseAuth */,
+				B9253644FA754A457E40E53912167286 /* FirebaseDatabase */,
+				96ADB8E696EDE9D27AF6A5AC68ED3FE1 /* FirebaseInstanceID */,
+				7F07AB1D734709D4A32F7A9B7A82905E /* FirebaseStorage */,
+				6939C9686E5DF7EB37E62E5C26B3E6E4 /* GoogleInterchangeUtilities */,
+				CBAD150C90BB772F8837983744123006 /* GoogleMaps */,
+				0CD4F696AA303BF56E7579F84781055A /* GoogleNetworkingUtilities */,
+				969EFE77BAC11546986230B07EEAB669 /* GoogleSymbolUtilities */,
+				A6A5BD6DE21A2C8295B69414E79CF62F /* GoogleUtilities */,
+				A21CF989588E6FADEA07BD22880BA5E7 /* RSBarcodes */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		DD6CFC96D5A119B3EBAF531804DE0D03 /* Frameworks */ = {
+		A21CF989588E6FADEA07BD22880BA5E7 /* RSBarcodes */ = {
 			isa = PBXGroup;
 			children = (
-				01B41B47DBC4B4F70121EE5CA8F73776 /* GoogleSymbolUtilities.framework */,
+				B9761573F275D1A6D2D4B1A326EC8E47 /* RSBarcodes.h */,
+				D625EA0F7BB1F98A762F8BA0F89D6CEC /* RSCode128Generator.h */,
+				6C5BD04F4BDBBC6C2449F7C88E509CC9 /* RSCode128Generator.m */,
+				BE477CD1B1BDE1D099C2975D71646E68 /* RSCode39Generator.h */,
+				8D48E78E5DEC9F7F2EBE22265D33A502 /* RSCode39Generator.m */,
+				10B2F772375489B3C766B02C3A428D02 /* RSCode39Mod43Generator.h */,
+				369393D2FAB716B413549AC7CF43A090 /* RSCode39Mod43Generator.m */,
+				2F5F4E4A3D6A223EE7D4BAE0A55C59EF /* RSCode93Generator.h */,
+				1F997A52BC849D685BCB62D1BEE47806 /* RSCode93Generator.m */,
+				A4A980B64A4CA222C5B24CEE9B3DB45B /* RSCodeGen.h */,
+				C2BAAF5047D0E93EB1E5815780D20E02 /* RSCodeGenerator.h */,
+				E6C96867FAB54CAC6D88380EB217BBD3 /* RSCodeGenerator.m */,
+				1D1FB2E76D703AE56F9208DF2720A7A7 /* RSCodeView.h */,
+				CDC768A158716DF62F81122CC8B4F2A2 /* RSCodeView.m */,
+				051327B4FB57EC43053B05F3E9148206 /* RSCornersView.h */,
+				117692DA78FBADB4F73143D01B588E9D /* RSCornersView.m */,
+				3CC17411FE465CF83CBE1FE41B098520 /* RSEAN13Generator.h */,
+				A8E30EC9F17682DA51B4A3D31A2EE5DF /* RSEAN13Generator.m */,
+				BE9ECFADA8113F035806B03A1A994D0A /* RSEAN8Generator.h */,
+				3E8B5D4019603DD7E90E930C8EFEF016 /* RSEAN8Generator.m */,
+				91CA43CB8BE74DA45ED0E7DFFA267F84 /* RSEANGenerator.h */,
+				584E7490D76EA339B30146878ED7B8F0 /* RSEANGenerator.m */,
+				B13667278981BC5E4DE779F5E5781EA5 /* RSExtendedCode39Generator.h */,
+				854F34ABE042D7C4B5D63672878D5BFD /* RSExtendedCode39Generator.m */,
+				5592C7D96E911D325AFE2F2B8092ECC6 /* RSISBN13Generator.h */,
+				A08A90405745AD43EE0491CF80427F45 /* RSISBN13Generator.m */,
+				35AE339F17BD20A968B8F656E46E85E6 /* RSISSN13Generator.h */,
+				870B70E2FDAF384689AAAC7258DB3BC2 /* RSISSN13Generator.m */,
+				2966933676BB1FE10EBB2190F200DB3E /* RSITF14Generator.h */,
+				0107B4C0FBE4497979E9DB3590768921 /* RSITF14Generator.m */,
+				C1592BA30E59B6A9C98513E60B283DF7 /* RSITFGenerator.h */,
+				8780635D1DCEDBB36116D2448AA28AB5 /* RSITFGenerator.m */,
+				CF95E3777CA7CB4A2D2B7F9666713557 /* RSScannerViewController.h */,
+				F59902D89AABE201B5A673134685B8B6 /* RSScannerViewController.m */,
+				39CDB6C4E8AFDA5C9427C38F32EF731A /* RSUnifiedCodeGenerator.h */,
+				2816E581E1E77019EC4CBFD05AD06495 /* RSUnifiedCodeGenerator.m */,
+				1EDD8F2B3EEC9DE0A5A46C62C6AC1498 /* RSUPCEGenerator.h */,
+				9F91593F1D04F3E321F0C1D1E0669B28 /* RSUPCEGenerator.m */,
+				863B2B45A32F28CA75AF1F69D76B9E26 /* Support Files */,
+			);
+			path = RSBarcodes;
+			sourceTree = "<group>";
+		};
+		A2BE4D3F6EA49957614B414803D777D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A96750E014CB72E9660E3E2113B3FAB6 /* Pods_FoundIt.framework */,
+				44A600153A9EF77E95CEA1E754400A46 /* Pods_FoundItTests.framework */,
+				EB6CDC077F9A7ABCF732118882890885 /* Pods_FoundItUITests.framework */,
+				58D3DD65F7024FC99C78F42073ADFBB6 /* RSBarcodes.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6A5BD6DE21A2C8295B69414E79CF62F /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				64536E0087A8730A3B89BA85BA6E782A /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		B5AC1013FF3C177C79C024B99E0994D9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				795C2FA91D69AF87E910B75563F6BA4A /* AVFoundation.framework */,
+				0DB27C2D87DB11EB74899AFF0181127C /* CoreImage.framework */,
+				41C1789B3E8CCBAE097468A4C62506B2 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B75DB5C907D3796B3FD836AA76C6987D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA47187DBA96F21259D30CCE83F9A96C /* GoogleNetworkingUtilities.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E6E59E4C7C02B72590F91C660C0BF57B /* Frameworks */ = {
+		B9253644FA754A457E40E53912167286 /* FirebaseDatabase */ = {
 			isa = PBXGroup;
 			children = (
-				5C6E7E0870053E9D11B4DBDE63D04BC2 /* FirebaseAuth.framework */,
+				EF8C9FB05FA352656817BC820E28F8D8 /* Frameworks */,
 			);
-			name = Frameworks;
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		CBAD150C90BB772F8837983744123006 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				41A092A0128D3E9923976FAEEB76B544 /* Frameworks */,
+				417B7E209CC053FEC9F5243E0354AB41 /* Resources */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		D1D7410A0D11F1D4E64ABF96EAF56A70 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				6DE8BA067B0FF92750DDCF3DC2D449ED /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
 			sourceTree = "<group>";
 		};
 		EEEBD71309B7E0FD147AB50F173AF800 /* Pods-FoundItUITests */ = {
@@ -402,14 +568,50 @@
 			path = "Target Support Files/Pods-FoundItUITests";
 			sourceTree = "<group>";
 		};
+		EF8C9FB05FA352656817BC820E28F8D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17E91FEA0EC7D1D42ACACA3CDBC80E8E /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		940A29DAFF9FBE2FC2E71A603D99AE75 /* Headers */ = {
+		282DD17C5F5F73BBB2752DA4E16BD1A2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4175ED563CECEAAA87D9A3412962BB42 /* Pods-FoundIt-umbrella.h in Headers */,
+				296C243DD9CFB7E8B59AA4D7099DA2A4 /* Pods-FoundIt-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90FE4E374C3CBB3ADDC8F4170225CDBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94078C7F5D4D02625F1506ED01E658A2 /* RSBarcodes-umbrella.h in Headers */,
+				CF711C9BA829692B4EE06E6045555C16 /* RSBarcodes.h in Headers */,
+				4ACEC36E79278E7288452950DDF1BA9E /* RSCode128Generator.h in Headers */,
+				80AC2278D7119330C5F9C6B053C825B5 /* RSCode39Generator.h in Headers */,
+				03437C2E4A325849B584C770585125C9 /* RSCode39Mod43Generator.h in Headers */,
+				20EA68E77DB75FD79FF3A4072901F5FC /* RSCode93Generator.h in Headers */,
+				93F15600840AEC92B0816377D3721B7B /* RSCodeGen.h in Headers */,
+				1CBFD04DF4FCF8E33FFD362334C22B99 /* RSCodeGenerator.h in Headers */,
+				275079473045269C3346590DCC1C025F /* RSCodeView.h in Headers */,
+				47183BAC6E0EA21E6FABB967E8B8F507 /* RSCornersView.h in Headers */,
+				F0644D598384E5873D0EF09FCEFB0053 /* RSEAN13Generator.h in Headers */,
+				5BDE7F4D005B9D1D5DA49B35B26F9FA6 /* RSEAN8Generator.h in Headers */,
+				91A9FB794229EB872C7F129B4CBB9EB3 /* RSEANGenerator.h in Headers */,
+				9102C102B7E422F4E6D9FD279FCC98D7 /* RSExtendedCode39Generator.h in Headers */,
+				F4FE2431B378D7EE9B6FBB4498468722 /* RSISBN13Generator.h in Headers */,
+				8D960D1DCA6E7A48543101BAB60A59DB /* RSISSN13Generator.h in Headers */,
+				82042F75DD36AF5C6D7FF96CC379FDF4 /* RSITF14Generator.h in Headers */,
+				17A5E8BD2353BF0FC9478E4D1EAA5D13 /* RSITFGenerator.h in Headers */,
+				6695DC54A1DF7FD856F5890BA9BE9544 /* RSScannerViewController.h in Headers */,
+				D5A525E8EFD1E56BD072DA31AF29D2C0 /* RSUnifiedCodeGenerator.h in Headers */,
+				034509FB38AA5548A862B666D4125B83 /* RSUPCEGenerator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +634,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		6A0FEE0A9B771334653EECF801DB8DE0 /* Pods-FoundIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790C1F471B394205EDAC820220189E1F /* Build configuration list for PBXNativeTarget "Pods-FoundIt" */;
+			buildPhases = (
+				60145A6EA2CBE9D064516E7CBE05F759 /* Sources */,
+				1BC04C89B56FA0F30C01E20097DF1A9A /* Frameworks */,
+				282DD17C5F5F73BBB2752DA4E16BD1A2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				058D40A5E56A7C005589C6B1595DE093 /* PBXTargetDependency */,
+			);
+			name = "Pods-FoundIt";
+			productName = "Pods-FoundIt";
+			productReference = A96750E014CB72E9660E3E2113B3FAB6 /* Pods_FoundIt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B9524E98B0945F48896C4BDE04C37D67 /* Pods-FoundItUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F435F6EACBC2AF26B6B5648A83348702 /* Build configuration list for PBXNativeTarget "Pods-FoundItUITests" */;
@@ -446,24 +666,7 @@
 			);
 			name = "Pods-FoundItUITests";
 			productName = "Pods-FoundItUITests";
-			productReference = 539AF5BAC7EB541D00756F5A0F1210C0 /* Pods_FoundItUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CEB6FD9650E4F2D2D07E3E6388DD0508 /* Pods-FoundIt */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 51A850CE0AB926A89EA040643A3FAB69 /* Build configuration list for PBXNativeTarget "Pods-FoundIt" */;
-			buildPhases = (
-				843DCFB03C9852F1BBDB4CE14BF17729 /* Sources */,
-				D25D057635BF14312858132E08EF6DED /* Frameworks */,
-				940A29DAFF9FBE2FC2E71A603D99AE75 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-FoundIt";
-			productName = "Pods-FoundIt";
-			productReference = 251D3F1962DBD5388BA52612B72DD579 /* Pods_FoundIt.framework */;
+			productReference = EB6CDC077F9A7ABCF732118882890885 /* Pods_FoundItUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E3565E7973482C6E759A8FB6F39D559F /* Pods-FoundItTests */ = {
@@ -480,7 +683,24 @@
 			);
 			name = "Pods-FoundItTests";
 			productName = "Pods-FoundItTests";
-			productReference = 1338C7D3ABFDF7E34E34565230894B01 /* Pods_FoundItTests.framework */;
+			productReference = 44A600153A9EF77E95CEA1E754400A46 /* Pods_FoundItTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E77A28A7F7328EEBA914BF4A4F32AB5E /* RSBarcodes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22571E57CE6C9A770973F5021C8F6355 /* Build configuration list for PBXNativeTarget "RSBarcodes" */;
+			buildPhases = (
+				1A5B581ADD126FDAAE5CC790211CF241 /* Sources */,
+				FBE1086EA823F7FD04CE927597174DFD /* Frameworks */,
+				90FE4E374C3CBB3ADDC8F4170225CDBE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSBarcodes;
+			productName = RSBarcodes;
+			productReference = 58D3DD65F7024FC99C78F42073ADFBB6 /* RSBarcodes.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -500,23 +720,50 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 551E57F68CB049C4745B38793B05019D /* Products */;
+			productRefGroup = A2BE4D3F6EA49957614B414803D777D7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CEB6FD9650E4F2D2D07E3E6388DD0508 /* Pods-FoundIt */,
+				6A0FEE0A9B771334653EECF801DB8DE0 /* Pods-FoundIt */,
 				E3565E7973482C6E759A8FB6F39D559F /* Pods-FoundItTests */,
 				B9524E98B0945F48896C4BDE04C37D67 /* Pods-FoundItUITests */,
+				E77A28A7F7328EEBA914BF4A4F32AB5E /* RSBarcodes */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		843DCFB03C9852F1BBDB4CE14BF17729 /* Sources */ = {
+		1A5B581ADD126FDAAE5CC790211CF241 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0F799A64D309030F7E25F7BD9CE38B9 /* Pods-FoundIt-dummy.m in Sources */,
+				99D4E96C703CDFEFC0721889C03A32B9 /* RSBarcodes-dummy.m in Sources */,
+				E4ABB7F3FC1FEE331E7A41C565390A7C /* RSCode128Generator.m in Sources */,
+				C7CF3060E55410BFD7F1EF906B200783 /* RSCode39Generator.m in Sources */,
+				E6FF6639883D22CF8BFEEA13F2FD294E /* RSCode39Mod43Generator.m in Sources */,
+				38E4733B89628D1712DA5D47C58A7622 /* RSCode93Generator.m in Sources */,
+				ADA463B48BBFEB6D48087FCF4D4B1041 /* RSCodeGenerator.m in Sources */,
+				C43BEDC69FDBE8A63B887E0D66FDE447 /* RSCodeView.m in Sources */,
+				07818F2E24CDFAB9ED9A703B291D7F88 /* RSCornersView.m in Sources */,
+				546BBE3C66B8A97084F8B0DA634D65DE /* RSEAN13Generator.m in Sources */,
+				11E8195AED9DCE0C070E90B5EF2B6E1F /* RSEAN8Generator.m in Sources */,
+				7EC92A79914146856BD0F96C62C16AE2 /* RSEANGenerator.m in Sources */,
+				861E09BF5C8B540A19B0D6A9B40A7161 /* RSExtendedCode39Generator.m in Sources */,
+				45D99857AD5DE748A009BD75647C3ED0 /* RSISBN13Generator.m in Sources */,
+				F44DC656BDD453486DA33E0912A0313B /* RSISSN13Generator.m in Sources */,
+				BBFE96FD154885DEC3BD0663EEB352DD /* RSITF14Generator.m in Sources */,
+				CE8F4AC18F254A1A40117881EE769166 /* RSITFGenerator.m in Sources */,
+				2D553B044A19728163E7523F29B06F36 /* RSScannerViewController.m in Sources */,
+				E0A01BA5AF5536758AEFB9EFFC511974 /* RSUnifiedCodeGenerator.m in Sources */,
+				D231709FF7CBEC2DDFA823401B849D34 /* RSUPCEGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60145A6EA2CBE9D064516E7CBE05F759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64EDD509AB3F0E50641FC33158BF10DD /* Pods-FoundIt-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,6 +784,15 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		058D40A5E56A7C005589C6B1595DE093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSBarcodes;
+			target = E77A28A7F7328EEBA914BF4A4F32AB5E /* RSBarcodes */;
+			targetProxy = C3A24D9426D6A5A1E8BA0968A54BD2BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		11BC4B303191CD70FBA124361DFE1002 /* Release */ = {
@@ -685,9 +941,9 @@
 			};
 			name = Debug;
 		};
-		7FC02B169253DD279C005CF7E90808F5 /* Debug */ = {
+		6F5C30A87D7A294A26B2DDE41C9D6826 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4C18CDE861EF825035283C17B66B177 /* Pods-FoundIt.debug.xcconfig */;
+			baseConfigurationReference = CD7433CDAE75FBAFCCA2AE1CAD26C425 /* RSBarcodes.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -698,18 +954,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-FoundIt/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RSBarcodes/RSBarcodes-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSBarcodes/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FoundIt/Pods-FoundIt.modulemap";
+				MODULEMAP_FILE = "Target Support Files/RSBarcodes/RSBarcodes.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FoundIt;
+				PRODUCT_NAME = RSBarcodes;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -718,9 +970,9 @@
 			};
 			name = Debug;
 		};
-		813B3C5F44A374ECC906D61799716735 /* Release */ = {
+		AA251D1E39287C12C8715D86B0C77578 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B71184A5846049012A79374F43B05A6C /* Pods-FoundIt.release.xcconfig */;
+			baseConfigurationReference = CD7433CDAE75FBAFCCA2AE1CAD26C425 /* RSBarcodes.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -731,18 +983,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-FoundIt/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RSBarcodes/RSBarcodes-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSBarcodes/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FoundIt/Pods-FoundIt.modulemap";
+				MODULEMAP_FILE = "Target Support Files/RSBarcodes/RSBarcodes.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_FoundIt;
+				PRODUCT_NAME = RSBarcodes;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -784,6 +1032,39 @@
 			};
 			name = Debug;
 		};
+		BE2E03FFC8E473E4C46D9277A56E849B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4C18CDE861EF825035283C17B66B177 /* Pods-FoundIt.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FoundIt/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoundIt/Pods-FoundIt.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FoundIt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		D656914A0B8A2F0EF33A2A2900DA3D86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 442EA5DDECE7EF23B8D27C5AEF3DD193 /* Pods-FoundItUITests.release.xcconfig */;
@@ -817,9 +1098,51 @@
 			};
 			name = Release;
 		};
+		E1964F8AFB0E9BB95453492D3C411D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B71184A5846049012A79374F43B05A6C /* Pods-FoundIt.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FoundIt/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoundIt/Pods-FoundIt.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FoundIt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		22571E57CE6C9A770973F5021C8F6355 /* Build configuration list for PBXNativeTarget "RSBarcodes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F5C30A87D7A294A26B2DDE41C9D6826 /* Debug */,
+				AA251D1E39287C12C8715D86B0C77578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -829,11 +1152,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51A850CE0AB926A89EA040643A3FAB69 /* Build configuration list for PBXNativeTarget "Pods-FoundIt" */ = {
+		790C1F471B394205EDAC820220189E1F /* Build configuration list for PBXNativeTarget "Pods-FoundIt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FC02B169253DD279C005CF7E90808F5 /* Debug */,
-				813B3C5F44A374ECC906D61799716735 /* Release */,
+				BE2E03FFC8E473E4C46D9277A56E849B /* Debug */,
+				E1964F8AFB0E9BB95453492D3C411D15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
